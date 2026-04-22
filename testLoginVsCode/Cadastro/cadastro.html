@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastre</h1>
+    </header>
+    <main>
+        <form id="cadatroId">
+            <label for="emailId">E-mail</label>
+            <input type="email" name="" id="emailId"><br><br>
+
+            <label for="senhaId">Senha</label>
+            <div class="password-container">
+                <input type="password" id="senhaId" required>
+                <button type="button" id="toggleBtn" onclick="togglePassword()">
+                    <span id="eyeIcon">👁️</span>
+                </button>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <p>Já Possui Cadastro? <a href="../Login/login.html">Faça Login</a></p>
+
+        <script src="cadastro.js"></script>
+    </main>
+    <footer>
+        <p>Feito Por Marcos Rocha</p>
+    </footer>
+    
+</body>
+</html>
